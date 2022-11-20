@@ -1,0 +1,89 @@
+@media screen and (max-width: 768px) {
+  .cards {
+    display: inline;
+  }
+
+  .lecture,
+  .farm-exhibition,
+  .forum,
+  .workshop,
+  .ff-ignite {
+    display: flex;
+    width: 98%;
+    background-color: rgba(211, 211, 211, 0.25);
+    gap: 5em;
+    padding-left: 1%;
+    height: 0%;
+    }
+
+  .navbar-right,
+  .navbar-desktop,
+  .top-black-navbar {
+    display: none;
+  }
+
+  .firstrow,
+  .secondrow,
+  .thirdrow {
+    display: inline;
+    justify-content: space-between;
+    margin-bottom: 2em;
+  }
+
+  .speaker {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .speakertext {
+    margin-left: 17%;
+
+  }
+
+  .speackerimg img {
+    width: 8rem;
+  }
+
+  .nav-ul {
+    position: fixed;
+    left: -120%;
+    top: -16px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #6070ff;
+    backdrop-filter: blur(5px);
+    mix-blend-mode: multiply;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    padding-top: 20px;
+  }
+
+  .nav-ul a {
+    margin: 1px 10px 0 -310px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .crosshairs {
+    position: fixed;
+    top: 1%;
+    left: 120%;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    margin: 0 19px 0 0;
+  }
+  
+  .nav-ul.active {
+    left: 0;
+    padding-top: 117px;
+   }
+  }

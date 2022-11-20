@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300,400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Capstone</title>
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Farmers Conference</title>
 </head>
 <body>
+    
     <div class="top-black-navbar">
         <div class="space"> </div>
         <ul class="topbar">
@@ -20,22 +22,38 @@
             <li><a href="#">Mypage</a></li>
             <li><a href="#">logout</a></li>
         </ul>
-    </div>
-    <nav class="navbar-desktop">
-        <div class="logo-navbar-left">
-            <a href="index.html"><img src="img/icons8-ear-of-corn-48.png" alt="Joy pad image"></a>
         </div>
-        <div class="navbar-right">
-            <ul class="realbavlist">
-                <li><a href="pages/about.html">About</a></li>
-                <li>Program</li>
-                <li>Join</li>
-                <li>Sponsor</li>
-                <li>News</li>
-                <li class="gg-campaign">Farmers con</li>
+        <header>
+        <a id="logo" href="#home" class="logo"><img src="img/icons8-ear-of-corn-48.png" alt=""></a>
+
+        <nav>
+
+            <ul class="nav-ul">
+
+                <li class="crosshairs">
+                    <a href="" class="nav-link1">
+                        <img src="./img/icons8-multiply-48.png" alt="cross icon">
+                    </a></li>
+                
+                <li><a href="#portfolio" class="nav-link">About</a></li>
+                <li><a href="#about" class="nav-link">Program</a></li>
+                <li><a href="#contact" class="nav-link">Join</a></li>
+                <li><a href="#contact" class="nav-link">Join</a></li>
+                <li><a href="#about" class="nav-link">Sponsor</a></li>
+                <li><a href="#contact" class="nav-link">News</a></li>
+                <li><a href="#contact" class="nav-link">CC Campain</a></li>
+                   
             </ul>
-        </div>
-    </nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+            
+        </nav>
+    </header>
+    
         <section class="firstpart">
             <div class="home">
                 <p class="tesxth">Hello ! Sharing World</p>
@@ -95,94 +113,151 @@
             </div>
             <button class="cardsbut"> Join FF Global Conference</button>
         </section>
-
+<!-- speakers will start here  -->
         <section class="features-speakers">
-            <div class="">
+            <div class="toppart">
                 <h3>featured features-speakers</h3>
                 <hr>
             </div>
-            <div>
-                <div>
-                    <div class="speackerimg">
-                        <img src="img/" alt="">
-                    </div>
-                    <div class="speakertext">
-                        <h4></h4>
-                        <p class="speakertext1">
+            <div class="farmerssection">
 
-                        </p>
-                        <p class="speakertext2">
+                <!--  
+               
+                    <div class="speaker">
+                        <div class="imagecont">
+                            <div class="speackerimg">
+                                <img src="img/f1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="speakertext">
+                            <h4 class="modalhead">Terramay</h4>
+                            <p class="speakertext1">
+                                The mission of Terramay is to create a well-balanced ecosystem with rich, fertile soil that produces nutrient-dense foods.
+                            </p>
+                            <p class="speakertext2">
+                                At this historical place, we want to develop a regenerative retreat rooted in respect for Mother Earth.  Through the experiences at the farm and retreat, we hope to reconnect people with nature and our long-lost traditions.’’
+                            </p>
+                        </div>
+                    </div>
 
-                        </p>
+                    <div class="speaker">
+                        <div class="imagecont">
+                            <div class="speackerimg">
+                                <img src="img/f2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="speakertext">
+                            <h4>Met Natuur Mee</h4>
+                            <p class="speakertext1">
+                                Met Natuur Mee was established to regeneratively unite nature and agriculture. Sanne believes that the undiscovered answer to many of today’s problems lies beneath our feet, in the soil. 
+                            </p>
+                            <p class="speakertext2">
+                                After studying Forestry and Nature Management, Sanne became a forester at the Forestry Department. She realised this is directly related to how we manage nature and produce our food. 
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div class="speackerimg">
-                        <img src="" alt="">
-                    </div>
-                    <div class="speakertext">
-                        <h4></h4>
-                        <p class="speakertext1">
 
-                        </p>
-                        <p class="speakertext2">
-                            
-                        </p>
+                
+                
+                    <div class="speaker">
+                        <div class="imagecont">
+                            <div class="speackerimg">
+                                <img src="img/f3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="speakertext">
+                            <h4>Pflanzgarten</h4>
+                            <p class="speakertext1">
+                                To create food security and food sovereignty, this beautiful regenerative market garden was founded in the autumn of 2019.
+                            </p>
+                            <p class="speakertext2">
+                                Julia and Hans-Albrecht, the founders of this CSA project, have always been interested in joining a community-supported garden. Unfortunately, all of them were located a few kilometers away from Hitzacker. 
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div class="speackerimg">
-                        <img src="" alt="">
+                    <div class="speaker">
+                        <div class="imagecont">
+                            <div class="speackerimg">
+                                <img src="img/f4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="speakertext">
+                            <h4>Lebendiger</h4>
+                            <p class="speakertext1">
+                                Meet a lovely little family and their regenerative farm, located in an old farmstead in Mecklenburg, Germany. The farm was founded in 2017 by the two pioneers Johannes and Laura.
+                            </p>
+                            <p class="speakertext2">
+                                For Laura and Johannes, it was a long-desired step to start their own farm. Johannes studied organic farming near Berlin, where he specialised in agroforestry.  He became fascinated by alternative farming systems, such as permaculture, agro-ecology, and regenerative agriculture  
+                            </p>
+                        </div>
                     </div>
-                    <div class="speakertext">
-                        <h4></h4>
-                        <p class="speakertext1">
+                
+                    <div class="speaker">
+                        <div class="imagecont">
+                            <div class="speackerimg">
+                                <img src="img/f5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="speakertext">
+                            <h4>Ackerpulco</h4>
+                            <p class="speakertext1">
+                                Ackerpulco is a regenerative agriculture project based in Alt-Madlitz, Brandenburg, which we launched in 2020
+                            </p>
+                            <p class="speakertext2">
+                                Deacon and Anne built up a small organic farm located in Alt-Madlitz Germany roughly 80 Km east of Berlin. Currently, they are experiencing their very first seasons including, in their words, »the crazy process of building infrastructure, preparing the beds, starting seedlings and planting«.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="speaker">
+                        <div class="imagecont">
+                            <div class="speackerimg">
+                                <img src="img/f6.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="speakertext">
+                            <h4>Lugar Da Terra</h4>
+                            <p class="speakertext1">
+                                Tânia, Job and Julien are a little family that is doing market gardening on 5.000 m2.
+                            </p>
+                            <p class="speakertext2">
+                                Job and Tania used to be film makers and their agricultural journey began in 2011 with a documentary that they made about Ernst Gotsch and his Syntropic Agriculture in Portugal. 
+                            </p>
+                        </div>
+                    </div>
+                -->
+                
+            </div>
+        </section>
+        <section class="farmimgpartners">
+            <h3 class="headingpartners">
+                Farmers Partners
+            </h3>
+            <hr class="bottom">
+                
+            </div>
+            <div class="partners-bottom-content">
+                <p class="partner-1">Google</p>
+                <p class="partner-2">mozzilla</p>
+                <p class="partner-3">NAVER</p>
+                <p class="partner-4">daumkakao</p>
+                <p class="partner-5">NEXUS GAMING</p>
+                <p class="partner-6">NVIDIA</p>
+            </div>
+            </div>
+        </section>
 
-                        </p>
-                        <p class="speakertext2">
-                            
-                        </p>
-                    </div>
-                </div>
-                <div>
-                    <div class="speackerimg">
-                        <img src="" alt="">
-                    </div>
-                    <div class="speakertext">
-                        <h4></h4>
-                        <p class="speakertext1">
-
-                        </p>
-                        <p class="speakertext2">
-                            
+        <section class="footerpart">
+            <div class="footer-section">
+                <div class="footer-section-container">
+                    <div class="footer-detail-container">
+                        <p class="right-footer-text">
+                            &copy;2nd Climate Farming Conference
                         </p>
                     </div>
-                </div>
-                <div>
-                    <div class="speackerimg">
-                        <img src="" alt="">
-                    </div>
-                    <div class="speakertext">
-                        <h4></h4>
-                        <p class="speakertext1">
-
-                        </p>
-                        <p class="speakertext2">
-                            
-                        </p>
-                    </div>
-                </div>
-                <div>
-                    <div class="speackerimg">
-                        <img src="" alt="">
-                    </div>
-                    <div class="speakertext">
-                        <h4></h4>
-                        <p class="speakertext1">
-
-                        </p>
-                        <p class="speakertext2">
-                            
+                    <div class="footer-detail-container">
+                        <p class="left-footer-text">
+                            2022 Creative Commons China. Some rights Reserved<br>
+                            我扮演虚拟角色，经常解决虚拟问题。 我相信人类以同样的方式看待气候变化，就好像它是虚构的一样2025 
                         </p>
                     </div>
                 </div>
@@ -190,6 +265,7 @@
         </section>
 
 
-        
+       <script src="scripts/script.js"></script> 
+       <script src="scripts/featured.js"></script>
 </body>
 </html>
