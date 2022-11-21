@@ -7,6 +7,10 @@
     display: none;
   }
 
+  .home {
+    margin-top: -2em;
+  }
+
   .lecture,
   .farm-exhibition,
   .forum,
@@ -44,6 +48,14 @@
     margin-left: 17%;
   }
 
+  .speackerimg {
+    position: relative;
+    top: 4px;
+    left: 25px;
+    width: 6em;
+    margin-top: 3em;
+  }
+
   .top-black-navbar {
     display: none;
   }
@@ -69,7 +81,7 @@
   }
 
   .nav-ul a {
-    margin: 1px 10px 0 -310px;
+    margin: 1px 10px 0 -231px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -215,7 +227,20 @@
     margin-bottom: 5%;
   }
 
+  .footer-section-container{
+    width: 84%;
+  }
+  
+
   .footer-detail-container {
     color: var(--black-color);
   }
+
+  .left-footer-text {
+    font-size: small;
+    font-family: 'Lato-Bold', sans-serif;
+    text-align: left;
+    margin: 0 0 0 70px;
+    width: 70%;
+
 }

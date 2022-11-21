@@ -32,8 +32,8 @@ const payload = [
   modal: {
     speackerimg: 'img/f4.jpg',
     modalhead: 'Lebendiger',
-    speakertext1: 'Meet a lovely little family and their regenerative farm, located in an old farmstead in Mecklenburg, Germany. The farm was founded in 2017 by the two pioneers Johannes and Laura.',
-    speakertext2: ' For Laura and Johannes, it was a long-desired step to start their own farm. Johannes studied organic farming near Berlin, where he specialised in agroforestry.  He became fascinated by alternative farming systems, such as permaculture, agro-ecology, and regenerative agriculture '
+    speakertext1: 'Meet a lovely little family and their regenerative farm, located in an old farmstead in Mecklenburg, Germany.' ,
+    speakertext2: '  Deacon and Anne built up a small organic farm located in Alt-Madlitz Germany roughly 80 Km east of Berlin. Currently, they are experiencing their very first seasons including, in their words, »the crazy process of building infrastructure, preparing the beds, starting seedlings and planting«.'  
   },
 },
 
