@@ -3,6 +3,10 @@
     display: inline;
   }
 
+  .logo {
+    display: none;
+  }
+
   .lecture,
   .farm-exhibition,
   .forum,
@@ -38,7 +42,10 @@
 
   .speakertext {
     margin-left: 17%;
+  }
 
+  .top-black-navbar {
+    display: none;
   }
 
   .speackerimg img {
@@ -86,4 +93,129 @@
     left: 0;
     padding-top: 117px;
    }
+
+  .previoussummits {
+    display: inline;
+    width: 80%;
+    margin: auto;
+    gap: 4em;
+    margin-bottom: 10px;
   }
+
+  .sumit2014,
+  .sumit2013 {
+    height: 12em;
+  }
+
+  .creative-nexusabout{
+    width: 80%;
+  }
+
+  .creative-nexusabout {
+    padding-top: 4em;
+    padding-bottom: 1em;
+    width: 100%;
+    margin: auto;
+    font-size: xx-large;
+    font-weight: 900;
+    color: rgba(236, 82, 66, 0.9);
+    font-family: 'lato', sans-serif;
+    text-align: center;
+    margin-top: -35px;
+  }
+
+  .boxed-paragraphabout {
+    display: block;
+    border: solid #fff;
+    border-radius: 3px;
+    padding: 1em;
+    width: 90%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--black-color);
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .contpara {
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    width: 60%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--black-color);
+  }
+
+  .emailpara {
+    width: 40%;
+    margin:auto;
+    margin-top: 1%;
+    text-decoration-line: underline;
+    padding-bottom: 1%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: var(--black-color);
+  }
+
+  .logosection {
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .prevsumits h3,
+  .prevsumits p {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  .logosection h3 {
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: var(--black-color);
+    width: 90%;
+    margin: auto;
+  }
+  
+  .logosection hr,
+  .prevsumits hr {
+    width: 10%;
+  }
+  
+  .logoimage1 img {
+    width: 36%;
+    margin-bottom: 4em;
+    margin-top: 4em;
+  }
+
+  .sumit2013 {
+    width: 70%;
+    background-image: url(../img/Next-Generation-Conference-2022-group-photo-c-NFU.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    height: 13em;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  
+  .sumit2014 {
+    width: 70%;
+    background-image: url(../img/PXL_20211118_092531580-scaled-e1638366981737.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 13em;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+  .footer-detail-container {
+    color: var(--black-color);
+  }
+}

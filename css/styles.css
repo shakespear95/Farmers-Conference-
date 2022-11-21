@@ -29,25 +29,7 @@ header {
   background-color: #000;
 }
 
-.top-black-navbar {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  background-color: grey;
-}
 
-.top-black-navbar > ul > li > a {
-  text-decoration: none;
-  color: var(--gray-color);
-  font-size: small;
-  font-family: 'Lato', sans-serif;
-  margin: 0 28px 0 0;
-}
-
-.topbar {
-  display: flex;
-  gap: 2em;
-}
 
 .nav-ul {
   list-style: none;
@@ -55,6 +37,10 @@ header {
   flex-direction: row;
   align-items: center;
   height: 15px;
+}
+
+.logo img {
+  width: 10em;
 }
 
 .nav-ul li {
@@ -70,9 +56,9 @@ header {
 }
 
 .cards {
-    display: flex;
-    gap: 1em;
-    justify-content: space-evenly;
+  display: flex;
+  gap: 1em;
+  justify-content: space-evenly;
 }
 
 .navbar-desktop {
@@ -81,19 +67,17 @@ header {
 }
 
 .realbavlist {
-    display: flex;
-    gap: 3em;
-    margin: 3% 0% 0% -5%;
-    
+  display: flex;
+  gap: 3em;
+  margin: 3% 0% 0% -5%;
 }
 
 .firstpart {
-    background-image: url(../img/07.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: auto;
-    
-} 
+  background-image: url(../img/07.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
 
 .text-container > p {
   padding-top: 3em;
@@ -105,7 +89,8 @@ header {
   color: var(--red-color);
   text-align: center;
 }
-.creative-nexus{
+
+.creative-nexus {
   padding-top: 1em;
   padding-bottom: 1em;
   width: 90%;
@@ -114,16 +99,6 @@ header {
   font-weight: 400;
   color: rgba(236, 82, 66, 0.9);
   font-family: 'Cocogoose', sans-serif;
-}
-
-.text-container > p {
-  padding-top: 4em;
-  width: 90%;
-  margin: auto;
-  font-family: 'Lato', sans-serif;
-  font-size: x-large;
-  font-weight: 400;
-  color: var(--red-color);
 }
 
 .boxed-paragraph {
@@ -157,7 +132,7 @@ header {
   padding-bottom: 5em;
 }
 
-.tesxth{
+.tesxth {
   padding-top: 4em;
   width: 90%;
   margin: auto;
@@ -175,12 +150,12 @@ header {
 }
 
 .mainprogram h2 {
-    text-align: center;
-    color: #fff;
+  text-align: center;
+  color: #fff;
 }
 
 .mainprogram hr {
-    width: 10%;
+  width: 10%;
 }
 
 .cardsbut {
@@ -198,10 +173,10 @@ header {
   border: none;
 }
 
- .imagecont{
-    position: relative;
-    width: 100px;
- }
+.imagecont {
+  position: relative;
+  width: 100px;
+}
 
 .speackerimg {
   position: relative;
@@ -214,14 +189,14 @@ header {
 .bottomrow {
   display: flex;
   justify-content: space-between;
- }
+}
 
 .toprow img,
 .bottomrow img {
   width: 12rem;
   align-items: center;
   display: flex;
- }
+}
 
 .climate,
 .lehmann,
@@ -229,14 +204,14 @@ header {
 .rb,
 .elobau {
   margin-top: 5%;
- }
+}
 
 .farmimgpartners {
   background-color: var(--black-color);
- }
+}
 
 .speakertext {
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 .toppart h3 {
@@ -299,9 +274,9 @@ header {
 .firstrow,
 .secondrow,
 .thirdrow {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
 }
 
 .speaker {
@@ -325,6 +300,21 @@ header {
   margin-top: 0;
 }
 
+.imagecontainer {
+  border: grey solid;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 1.5em;
+}
+
+.home hr {
+  width: 10%;
+}
+
+.prevsumits {
+  padding-top: 5%;
+  background-color: #f7f2f2;
+}
 
 @media screen and (min-width: 768px) {
   .nav-ul {
@@ -336,6 +326,26 @@ header {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: white;
+  }
+
+  .top-black-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+  }
+
+  .top-black-navbar > ul > li > a {
+    text-decoration: none;
+    color: var(--gray-color);
+    font-size: small;
+    font-family: 'Lato', sans-serif;
+    margin: 0 28px 0 0;
+  }
+
+  .topbar {
+    display: flex;
+    gap: 2em;
   }
 
   .lecture,
@@ -370,4 +380,114 @@ header {
     color: var(--black-color);
     margin-bottom: 0;
   }
+
+  .features-speakers {
+    width: 92%;
+    margin: 0 0 0 8%;
+  }
+
+  .previoussummits {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 4em;
+    margin-bottom: 10px;
+  }
+
+  .creative-nexusabout {
+    padding-top: 4em;
+    padding-bottom: 1em;
+    width: 50%;
+    margin: auto;
+    font-size: xx-large;
+    font-weight: 900;
+    color: rgba(236, 82, 66, 0.9);
+    font-family: 'lato', sans-serif;
+    text-align: center;
+  }
+
+  .boxed-paragraphabout {
+    display: block;
+    border: solid #fff;
+    border-radius: 3px;
+    padding: 1em;
+    width: 60%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--black-color);
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .contpara {
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 40%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--black-color);
+  }
+  
+  .emailpara {
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 1%;
+    text-decoration-line: underline;
+    padding-bottom: 1%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: var(--black-color);
+  }
+
+  .logosection {
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .prevsumits h3, 
+  .prevsumits p {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .logosection h3 {
+    margin-top: 5%;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: var(--black-color);
+  }
+  
+  .logosection hr,
+  .prevsumits hr {
+    width: 10%;
+  }
+  
+  .logoimage1 img {
+    width: 36%;
+    margin-bottom: 4em;
+    margin-top: 4em;
+  }
+
+  .sumit2013 {
+    width: 50%;
+    background-image: url(../img/Next-Generation-Conference-2022-group-photo-c-NFU.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    height: 13em;
+  }
+  
+  .sumit2014 {
+    width: 50%;
+    background-image: url(../img/PXL_20211118_092531580-scaled-e1638366981737.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 13em;
+  }
 }
+
