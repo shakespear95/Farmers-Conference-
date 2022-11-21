@@ -297,6 +297,48 @@ header {
   background-color: #f7f2f2;
 }
 
+.partner-1 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 700;
+  font-size: xx-large;
+  color: #fff;
+}
+
+.partner-2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+  font-size: xx-large;
+  color: #fff;
+}
+
+.partner-3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: xx-large;
+  color: #fff;
+}
+
+.partner-4 {
+  font-family: 'Cocogoose', sans-serif;
+  font-weight: 700;
+  font-size: xx-large;
+  color: #fff;
+}
+
+.partner-5 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 700;
+  font-size: xx-large;
+  color: #fff;
+}
+
+.partner-6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: xx-large;
+  color: #fff;
+}
+
 @media screen and (min-width: 768px) {
   .nav-ul {
     margin-right: 39px;
@@ -314,7 +356,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: grey;
-    height:3.5em;
+    height: 3.5em;
   }
 
   .top-black-navbar > ul > li > a {
@@ -331,7 +373,7 @@ header {
   }
 
   .home {
-    margin-top: 0em;
+    margin-top: 0;
   }
 
   .lecture,
@@ -422,7 +464,7 @@ header {
     font-weight: 400;
     color: var(--black-color);
   }
-  
+
   .emailpara {
     width: 50%;
     margin-left: 40%;
@@ -441,7 +483,7 @@ header {
     text-align: center;
   }
   
-  .prevsumits h3, 
+  .prevsumits h3,
   .prevsumits p {
     margin: auto;
     width: 50%;
@@ -465,6 +507,12 @@ header {
     width: 36%;
     margin-bottom: 4em;
     margin-top: 4em;
+  }
+
+  .sumit2013-img {
+    background-color: rgba(236, 82, 66, 0.50);
+    margin: -21px 0 0 0;
+    height: 100%;
   }
 
   .sumit2013 {
@@ -497,6 +545,11 @@ header {
     display: flex;
     width: 70%;
     margin: auto;
+  }
+
+  .partners-bottom-content {
+    display: flex;
+    justify-content: space-between;
   }
   
 }
