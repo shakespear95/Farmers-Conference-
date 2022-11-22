@@ -105,11 +105,11 @@
     cursor: pointer;
     margin: 0 19px 0 0;
   }
-  
+
   .nav-ul.active {
     left: 0;
     padding-top: 117px;
-   }
+  }
 
   .previoussummits {
     display: inline;
@@ -122,10 +122,6 @@
   .sumit2014,
   .sumit2013 {
     height: 12em;
-  }
-
-  .creative-nexusabout{
-    width: 80%;
   }
 
   .creative-nexusabout {
@@ -167,7 +163,7 @@
 
   .emailpara {
     width: 40%;
-    margin:auto;
+    margin: auto;
     margin-top: 1%;
     text-decoration-line: underline;
     padding-bottom: 1%;
@@ -199,12 +195,12 @@
     width: 90%;
     margin: auto;
   }
-  
+
   .logosection hr,
   .prevsumits hr {
     width: 10%;
   }
-  
+
   .logoimage1 img {
     width: 36%;
     margin-bottom: 4em;
@@ -212,7 +208,7 @@
   }
 
   .sumit2013-img {
-    background-color: rgba(236, 82, 66, 0.50);
+    background-color: rgba(236, 82, 66, 0.75);
     margin: -21px 0 0 0;
     height: 100%;
   }
@@ -239,7 +235,7 @@
     margin-bottom: 3em;
   }
 
-  .footer-section-container{
+  .footer-section-container {
     width: 84%;
     width: 80%;
     display: inline-flex;
@@ -298,7 +294,7 @@
     font-weight: 700;
     font-size: xx-large;
     color: #fff;
-    margin: 0px 0px 0px 20px;
+    margin: 0 0 0 20px;
   }
 
   .partner-5 {
@@ -306,7 +302,7 @@
     font-weight: 700;
     font-size: xx-large;
     color: #fff;
-    margin: 0px 0px 0px 109px;
+    margin: 0 0 0 109px;
   }
 
   .partner-6 {

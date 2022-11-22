@@ -46,7 +46,7 @@ header {
 }
 
 .topbar img {
-  margin: -7px 0px 4px 1px;
+  margin: -7px 0 4px 1px;
 }
 
 .nav-ul li {
@@ -68,8 +68,8 @@ header {
 }
 
 .navbar-desktop {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .realbavlist {
@@ -193,6 +193,7 @@ header {
   background-color: var(--black-color);
   padding-bottom: 2px;
 }
+
 .toppart h3 {
   margin: auto;
   padding: 0.2em;
@@ -255,9 +256,9 @@ header {
   font-weight: 400;
   color: var(--black-color);
   margin-bottom: 0;
-   }
+}
 
-.speakertext1  {
+.speakertext1 {
   color: var(--red-color);
   font-family: 'Lato', sans-serif;
   font-style: italic;
@@ -395,7 +396,6 @@ button:hover {
     width: 100px;
     background-image: url(../img/167.png);
     background-repeat: no-repeat;
-    
   }
 
   .boxed-paragraphabout {
@@ -438,14 +438,14 @@ button:hover {
     align-items: center;
     text-align: center;
   }
-  
+
   .prevsumits h3,
   .prevsumits p {
     margin: auto;
     width: 50%;
     text-align: center;
   }
-  
+
   .logosection h3 {
     margin-top: 5%;
     font-size: 1.5em;
@@ -453,12 +453,12 @@ button:hover {
     font-weight: 700;
     color: var(--black-color);
   }
-  
+
   .logosection hr,
   .prevsumits hr {
     width: 10%;
   }
-  
+
   .logoimage1 img {
     width: 36%;
     margin-bottom: 4em;
@@ -466,7 +466,7 @@ button:hover {
   }
 
   .sumit2013-img {
-    background-color: rgba(236, 82, 66, 0.50);
+    background-color: rgba(236, 82, 66, 0.75);
     margin: -21px 0 0 0;
     height: 100%;
   }
@@ -479,7 +479,7 @@ button:hover {
     backdrop-filter: blur(10px);
     height: 13em;
   }
-  
+
   .sumit2014 {
     width: 50%;
     background-image: url(../img/PXL_20211118_092531580-scaled-e1638366981737.jpg);
@@ -522,7 +522,7 @@ button:hover {
   .partners-bottom-content {
     display: flex;
     justify-content: space-between;
-    padding: 0px 5px 1px 16px;
+    padding: 0 5px 1px 16px;
   }
 
   .partner-1 {
@@ -531,28 +531,28 @@ button:hover {
     font-size: xx-large;
     color: #fff;
   }
-  
+
   .partner-2 {
     font-family: 'Caveat', cursive;
     font-weight: 700;
     font-size: xx-large;
     color: #fff;
   }
-  
+
   .partner-3 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: xx-large;
     color: #fff;
   }
-  
+
   .partner-4 {
     font-family: 'Cocogoose', sans-serif;
     font-weight: 700;
     font-size: xx-large;
     color: #fff;
   }
-  
+
   .partner-5 {
     font-family: 'Anton', sans-serif;
     font-weight: 700;
@@ -604,4 +604,5 @@ button:hover {
     font-size: large;
     font-family: 'Cocogoose', sans-serif;
     color: #d3d3d3;
+  }
 }
