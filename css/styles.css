@@ -236,7 +236,7 @@ header {
   color: var(--gray-color);
   font-size: large;
   margin-bottom: 0.5em;
-  margin-left: 45.5%;
+  text-align: center;
 }
 
 .farmimgpartners hr {
@@ -407,7 +407,7 @@ header {
   }
 
   .speackerimg img {
-    width: 7em;
+    width: 5em;
   }
 
   .speakertext2 {

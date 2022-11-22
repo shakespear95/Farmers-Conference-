@@ -236,6 +236,10 @@
 
   .footer-section-container{
     width: 84%;
+    width: 80%;
+    display: inline-flex;
+    margin: auto;
+    padding-left: 14%;
   }
   
 
