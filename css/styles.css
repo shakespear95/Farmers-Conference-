@@ -21,15 +21,17 @@ header {
 
 .bar {
   display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
+  width: 43px;
+  height: 8px;
+  margin: 3px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #000;
 }
 
-
+.nav-link .campain {
+  border: #94544d solid;
+}
 
 .nav-ul {
   list-style: none;
@@ -43,6 +45,10 @@ header {
   width: 10em;
 }
 
+.topbar img {
+  margin: -7px 0px 4px 1px;
+}
+
 .nav-ul li {
   display: flex;
   font-style: normal;
@@ -51,7 +57,7 @@ header {
   line-height: 20px;
   align-items: center;
   text-align: center;
-  color: #344563;
+  color: #272a31;
   margin-left: 32px;
 }
 
@@ -96,7 +102,7 @@ header {
   width: 90%;
   margin: auto;
   font-size: xx-large;
-  font-weight: 400;
+  font-weight: 900;
   color: rgba(236, 82, 66, 0.9);
   font-family: 'Cocogoose', sans-serif;
 }
@@ -109,7 +115,7 @@ header {
   width: 90%;
   margin: auto;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: var(--black-color);
 }
 
@@ -119,7 +125,7 @@ header {
   margin: auto;
   font-family: 'Cocogoose', sans-serif;
   font-size: xx-large;
-  font-weight: 400;
+  font-weight: 900;
   color: var(--black-color);
 }
 
@@ -158,26 +164,6 @@ header {
   width: 10%;
 }
 
-.cardsbut {
-  background-color: var(--red-color);
-  margin: auto;
-  width: 16em;
-  display: block;
-  border-radius: 0.5em;
-  padding: 1.7em;
-  color: var(--gray-color);
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: initial;
-  margin-top: 2%;
-  border: none;
-}
-
-.imagecont {
-  position: relative;
-  width: 100px;
-}
-
 .toprow,
 .bottomrow {
   display: flex;
@@ -200,13 +186,13 @@ header {
 }
 
 .farmimgpartners {
+  background-color: #242525;
+}
+
+.farmimgpartnersabout {
   background-color: var(--black-color);
+  padding-bottom: 2px;
 }
-
-.speakertext {
-  margin-left: 10%;
-}
-
 .toppart h3 {
   margin: auto;
   padding: 0.2em;
@@ -227,7 +213,8 @@ header {
   margin-bottom: 1em;
 }
 
-.farmimgpartners h3 {
+.farmimgpartners h3,
+.farmimgpartnersabout h3 {
   padding-top: 1em;
   padding-bottom: 0.1em;
   align-items: center;
@@ -239,17 +226,13 @@ header {
   text-align: center;
 }
 
-.farmimgpartners hr {
+.farmimgpartners hr,
+.farmimgpartnersabout hr {
   display: block;
-  height: 0.2em;
+  height: 0.1em;
   background-color: #ec5242;
   margin: auto;
-  width: 8em;
-}
-
-.right-footer-text {
-  font-size: large;
-  font-family: 'Cocogoose', sans-serif;
+  width: 3em;
 }
 
 .firstrow,
@@ -262,7 +245,8 @@ header {
 
 .speaker {
   display: inline-flex;
-  width: 45%;
+  width: 49%;
+  margin-bottom: 3.5%;
 }
 
 .speakertext > h4 {
@@ -282,7 +266,7 @@ header {
 }
 
 .imagecontainer {
-  border: grey solid;
+  border: #d3d3d3 solid;
   width: 75%;
   margin: auto;
   margin-bottom: 1.5em;
@@ -297,46 +281,10 @@ header {
   background-color: #f7f2f2;
 }
 
-.partner-1 {
-  font-family: 'Anton', sans-serif;
-  font-weight: 700;
-  font-size: xx-large;
-  color: #fff;
-}
-
-.partner-2 {
-  font-family: 'Caveat', cursive;
-  font-weight: 700;
-  font-size: xx-large;
-  color: #fff;
-}
-
-.partner-3 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: xx-large;
-  color: #fff;
-}
-
-.partner-4 {
-  font-family: 'Cocogoose', sans-serif;
-  font-weight: 700;
-  font-size: xx-large;
-  color: #fff;
-}
-
-.partner-5 {
-  font-family: 'Anton', sans-serif;
-  font-weight: 700;
-  font-size: xx-large;
-  color: #fff;
-}
-
-.partner-6 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: xx-large;
-  color: #fff;
+button:hover {
+  cursor: pointer;
+  color: #ec5242;
+  background: #ec5242;
 }
 
 @media screen and (min-width: 768px) {
@@ -356,7 +304,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: grey;
-    height: 3.5em;
+    height: 2.5em;
   }
 
   .top-black-navbar > ul > li > a {
@@ -395,7 +343,7 @@ header {
 
   .speackerimg {
     position: relative;
-    top: 4px;
+    top: 17px;
     left: 25px;
     width: 6em;
   }
@@ -418,7 +366,7 @@ header {
 
   .features-speakers {
     width: 92%;
-    margin: 0 0 0 8%;
+    margin: auto;
   }
 
   .previoussummits {
@@ -440,6 +388,14 @@ header {
     color: rgba(236, 82, 66, 0.9);
     font-family: 'lato', sans-serif;
     text-align: center;
+  }
+
+  .imagecont {
+    position: relative;
+    width: 100px;
+    background-image: url(../img/167.png);
+    background-repeat: no-repeat;
+    
   }
 
   .boxed-paragraphabout {
@@ -534,23 +490,118 @@ header {
 
   .left-footer-text {
     font-size: small;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    margin: -10px 0 0 78px;
+    width: 70%;
+    color: #272a31;
+    margin-left: 32%;
+  }
+
+  .left-footer-textabout {
+    font-size: small;
     font-family: 'Lato-Bold', sans-serif;
     text-align: left;
-    margin: 17px 0 0 78px;
+    margin: -10px 0 0 78px;
     width: 70%;
+    color: #d3d3d3;
     margin-left: 32%;
+  }
+
+  .footer-section {
+    height: 11em;
   }
 
   .footer-section-container {
     display: flex;
     width: 70%;
+    padding-top: 3em;
     margin: auto;
   }
 
   .partners-bottom-content {
     display: flex;
     justify-content: space-between;
+    padding: 0px 5px 1px 16px;
+  }
+
+  .partner-1 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #fff;
   }
   
-}
+  .partner-2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #fff;
+  }
+  
+  .partner-3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #fff;
+  }
+  
+  .partner-4 {
+    font-family: 'Cocogoose', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #fff;
+  }
+  
+  .partner-5 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #fff;
+    padding-right: 2%;
+  }
 
+  .partner-6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #fff;
+  }
+
+  .speakertext {
+    margin-left: -2%;
+    margin-top: 3%;
+  }
+
+  .cardsbut {
+    border: none;
+    background: none;
+    color: #fff;
+    text-decoration: underline;
+    margin: 2% 0% 0% 50%;
+  }
+
+  .farmimgpartnersabout {
+    display: none;
+  }
+
+  .footerpart {
+    background-color: #d3d3d3;
+  }
+
+  .footerpartabout {
+    background-color: #272a31;
+  }
+
+  .right-footer-text {
+    font-size: large;
+    font-family: 'lato', sans-serif;
+    color: #272a31;
+    font-weight: 700;
+  }
+
+  .right-footer-textdesk {
+    font-size: large;
+    font-family: 'Cocogoose', sans-serif;
+    color: #d3d3d3;
+}

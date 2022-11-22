@@ -6,7 +6,7 @@ const payload = [
       speackerimg: 'img/f1.jpg',
       modalhead: 'Terramay',
       speakertext1: 'The mission of Terramay is to create a well-balanced ecosystem with rich, fertile soil that produces nutrient-dense foods.',
-      speakertext2: ' At this historical place, we want to develop a regenerative retreat rooted in respect for Mother Earth.  Through the experiences at the farm and retreat, we hope to reconnect people with nature and our long-lost traditions'
+      speakertext2: ' At this historical place, we want to develop a regenerative retreat rooted in respect for Mother Earth.  Through the experiences at the farm and retreat, '
     },
   },
 
@@ -14,7 +14,7 @@ const payload = [
     modal: {
       speackerimg: 'img/f2.jpg',
       modalhead: 'Met Natuur Mee',
-      speakertext1: 'Met Natuur Mee was established to regeneratively unite nature and agriculture. Sanne believes that the undiscovered answer to many of today’s problems lies beneath our feet, in the soil. ',
+      speakertext1: 'Met Natuur Mee was established to regeneratively unite nature and agriculture. ',
       speakertext2: ' After studying Forestry and Nature Management, Sanne became a forester at the Forestry Department. She realised this is directly related to how we manage nature and produce our food. '
     },
   },
@@ -33,7 +33,7 @@ const payload = [
     speackerimg: 'img/f4.jpg',
     modalhead: 'Lebendiger',
     speakertext1: 'Meet a lovely little family and their regenerative farm, located in an old farmstead in Mecklenburg, Germany.' ,
-    speakertext2: '  Deacon and Anne built up a small organic farm located in Alt-Madlitz Germany roughly 80 Km east of Berlin. Currently, they are experiencing their very first seasons including, in their words, »the crazy process of building infrastructure, preparing the beds, starting seedlings and planting«.'  
+    speakertext2: '  Deacon and Anne built up a small organic farm located in Alt-Madlitz Germany roughly 80 Km east of Berlin. Currently, they are experiencing their very first seasons including, in their words, »the crazy process of building infrastructure, '  
   },
 },
 
@@ -42,7 +42,7 @@ const payload = [
       speackerimg: 'img/f5.jpg',
       modalhead: 'Ackerpulco',
       speakertext1: ' Ackerpulco is a regenerative agriculture project based in Alt-Madlitz, Brandenburg, which we launched in 2020',
-      speakertext2: '  Deacon and Anne built up a small organic farm located in Alt-Madlitz Germany roughly 80 Km east of Berlin. Currently, they are experiencing their very first seasons including, in their words, »the crazy process of building infrastructure, preparing the beds, starting seedlings and planting«.'
+      speakertext2: '  Deacon and Anne built up a small organic farm located in Alt-Madlitz Germany roughly 80 Km east of Berlin. Currently, they are experiencing their very first seasons including,'
     },
   },
 
