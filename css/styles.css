@@ -36,7 +36,7 @@ header {
 .nav-ul {
   list-style: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   height: 15px;
 }
@@ -162,6 +162,8 @@ header {
 
 .mainprogram hr {
   width: 10%;
+  color: orange;
+  margin-bottom: 2em;
 }
 
 .toprow,
@@ -183,10 +185,6 @@ header {
 .rb,
 .elobau {
   margin-top: 5%;
-}
-
-.farmimgpartners {
-  background-color: #242525;
 }
 
 .farmimgpartnersabout {
@@ -211,7 +209,7 @@ header {
   background-color: #ec5242;
   margin: auto;
   width: 5em;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
 
 .farmimgpartners h3,
@@ -284,13 +282,14 @@ header {
 
 button:hover {
   cursor: pointer;
-  color: #ec5242;
   background: #ec5242;
+  color: #000;
 }
 
 @media screen and (min-width: 768px) {
   .nav-ul {
-    margin-right: 39px;
+    margin-right: 8px;
+    flex-direction: row;
   }
 
   .hamburger {
@@ -298,6 +297,10 @@ button:hover {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: white;
+  }
+
+  .nav-link a {
+    color: #d3d3d3;
   }
 
   .top-black-navbar {
@@ -313,7 +316,7 @@ button:hover {
     color: var(--gray-color);
     font-size: small;
     font-family: 'Lato', sans-serif;
-    margin: 0 28px 0 0;
+    margin: 0 5px 0 0;
   }
 
   .topbar {
@@ -323,6 +326,14 @@ button:hover {
 
   .home {
     margin-top: 0;
+  }
+
+  .right-footer-textabout {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #d3d3d3;
+    font-size: x-large;
+    margin: 0% 0% 0% 40%;
   }
 
   .lecture,
@@ -421,6 +432,13 @@ button:hover {
     color: var(--black-color);
   }
 
+  .nav-link:hover {
+    color: #ec5242;
+    background-color: transparent;
+    border: 3px solid #ec5242;
+    overflow: hidden;
+  }
+
   .emailpara {
     width: 50%;
     margin-left: 40%;
@@ -439,26 +457,55 @@ button:hover {
     text-align: center;
   }
 
-  .prevhead,
-  .prevp {
+  .prevhead {
     margin: auto;
     width: 50%;
     text-align: center;
-  }
-  
-  .sumithead {
-    margin: 21px 0px 0px 142px;
-    padding-top: 44px;
-    font-family: 'lato',sans-serif;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
-    color: #d3d3d3;
+    color: var(--black-color);
+  }
+
+  .prevp {
+    margin: auto;
+    margin-top: 3em;
+    width: 50%;
+    text-align: center;
+    color: var(--black-color);
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+
+  .farmimgpartners {
+    background-color: #242525;
   }
 
   .sumitpara {
-    margin: 48px 0px 0px 19px;
-    font-family: 'lato',sans-serif;
+    font-family: 'lato', sans-serif;
     font-weight: 700;
     color: #d3d3d3;
+    text-align: center;
+    font-size: large;
+  }
+
+  .sumithead {
+    text-align: center;
+    padding-top: 1em;
+    font-weight: 700;
+    color: #d3d3d3;
+    font-size: xx-large;
+    margin-top: 21px;
+  }
+
+  .speaker1,
+  .speaker2,
+  .speaker3,
+  .speaker4,
+  .speaker5,
+  .speaker6 {
+    display: flex;
   }
 
   .logosection h3 {
@@ -532,6 +579,11 @@ button:hover {
     width: 70%;
     padding-top: 3em;
     margin: auto;
+    margin-bottom: 5%;
+  }
+
+  .footer-sectionabout {
+    height: 9em;
   }
 
   .partners-bottom-content {
@@ -593,7 +645,8 @@ button:hover {
     background: none;
     color: #fff;
     text-decoration: underline;
-    margin: 2% 0% 0% 50%;
+    width: 100%;
+    margin-top: 2em;
   }
 
   .farmimgpartnersabout {
@@ -619,5 +672,9 @@ button:hover {
     font-size: large;
     font-family: 'Cocogoose', sans-serif;
     color: #d3d3d3;
+  }
+
+  .more {
+    display: none;
   }
 }

@@ -8,7 +8,7 @@
   }
 
   .home {
-    margin-top: -2em;
+    margin-top: -3em;
   }
 
   .lecture,
@@ -71,8 +71,8 @@
     top: -16px;
     gap: 0;
     flex-direction: column;
-    background-color: #6070ff;
-    backdrop-filter: blur(5px);
+    background-color: #d3d3d3;
+    backdrop-filter: blur(25px);
     mix-blend-mode: multiply;
     height: 100%;
     width: 100%;
@@ -87,11 +87,12 @@
 
   .nav-ul a {
     margin: 1px 10px 0 -220px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
+    color: #ec5242;
   }
 
   .crosshairs {
@@ -109,6 +110,7 @@
   .nav-ul.active {
     left: 0;
     padding-top: 117px;
+    height: 30%;
   }
 
   .sumit2014,
@@ -126,7 +128,7 @@
     color: rgba(236, 82, 66, 0.9);
     font-family: 'lato', sans-serif;
     text-align: center;
-    margin-top: -35px;
+    margin-top: -40px;
   }
 
   .boxed-paragraphabout {
@@ -164,6 +166,21 @@
     color: var(--black-color);
   }
 
+  .speaker1,
+  .speaker2,
+  .speaker3,
+  .speaker4,
+  .speaker5,
+  .speaker6 {
+    display: flex;
+  }
+
+  .speaker4,
+  .speaker5,
+  .speaker6 {
+    display: none;
+  }
+
   .logosection {
     margin: auto;
     width: 90%;
@@ -191,6 +208,19 @@
     align-items: center;
     text-align: center;
     padding-top: 44px;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    color: #d3d3d3;
+    font-size: larger;
+  }
+
+  .sumithead {
+    padding-top: 1em;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    color: #d3d3d3;
+    font-size: xx-large;
   }
 
   .logosection h3 {
@@ -217,6 +247,11 @@
     background-color: rgba(236, 82, 66, 0.75);
     margin: -21px 0 0 0;
     height: 100%;
+  }
+
+  .farmimgpartners {
+    background-color: #242525;
+    display: none;
   }
 
   .sumit2013 {
@@ -303,12 +338,37 @@
     margin: 0 0 0 20px;
   }
 
+  .more {
+    width: 90%;
+    height: 4em;
+    font-family: 'Lato', sans-serif;
+    padding-top: 2px;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 40%;
+    margin: auto;
+    margin-bottom: 3em;
+  }
+
+  .more:hover {
+    color: #d3d3d3;
+  }
+
   .partner-5 {
     font-family: 'Anton', sans-serif;
     font-weight: 700;
     font-size: xx-large;
     color: #fff;
     margin: 0 0 0 109px;
+  }
+
+  .nav-link:hover {
+    color: #272a27;
+    background-color: transparent;
+    border: 3px solid #ec5242;
+    overflow: hidden;
   }
 
   .partner-6 {
@@ -368,6 +428,12 @@
   }
 
   .footer-section {
+    background-color: #d3d3d3;
+    height: 12em;
+    display: none;
+  }
+
+  .footer-sectionabout {
     background-color: #d3d3d3;
     height: 12em;
   }
