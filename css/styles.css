@@ -439,11 +439,26 @@ button:hover {
     text-align: center;
   }
 
-  .prevsumits h3,
-  .prevsumits p {
+  .prevhead,
+  .prevp {
     margin: auto;
     width: 50%;
     text-align: center;
+  }
+  
+  .sumithead {
+    margin: 21px 0px 0px 142px;
+    padding-top: 44px;
+    font-family: 'lato',sans-serif;
+    font-weight: 700;
+    color: #d3d3d3;
+  }
+
+  .sumitpara {
+    margin: 48px 0px 0px 19px;
+    font-family: 'lato',sans-serif;
+    font-weight: 700;
+    color: #d3d3d3;
   }
 
   .logosection h3 {

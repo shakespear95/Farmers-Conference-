@@ -111,14 +111,6 @@
     padding-top: 117px;
   }
 
-  .previoussummits {
-    display: inline;
-    width: 80%;
-    margin: auto;
-    gap: 4em;
-    margin-bottom: 10px;
-  }
-
   .sumit2014,
   .sumit2013 {
     height: 12em;
@@ -180,11 +172,25 @@
     margin-top: 2em;
   }
 
-  .prevsumits h3,
-  .prevsumits p {
+  .prevhead,
+  .prevp {
     margin: auto;
     width: 90%;
     text-align: center;
+  }
+
+  .summithead {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 44px;
+  }
+
+  .sumitpara {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 44px;
   }
 
   .logosection h3 {
