@@ -14,11 +14,6 @@ a:hover {
   cursor: pointer;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-}
-
 .bar {
   display: block;
   width: 43px;
@@ -61,10 +56,16 @@ header {
   margin-left: 32px;
 }
 
+.nav-ul a {
+  color: #272a31;
+}
+
 .cards {
   display: flex;
-  gap: 1em;
+  gap: 0.2em;
   justify-content: space-evenly;
+  width: 87%;
+  margin: auto;
 }
 
 .navbar-desktop {
@@ -83,6 +84,13 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto;
+}
+
+.secondNav {
+  display: flex;
+  justify-content: space-between;
+  gap: 12%;
+  width: 100%;
 }
 
 .text-container > p {
@@ -104,7 +112,7 @@ header {
   font-size: xx-large;
   font-weight: 900;
   color: rgba(236, 82, 66, 0.9);
-  font-family: 'Cocogoose', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .boxed-paragraph {
@@ -116,7 +124,7 @@ header {
   margin: auto;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  color: var(--black-color);
+  color: #272a31;
 }
 
 .header-time {
@@ -126,7 +134,19 @@ header {
   font-family: 'Cocogoose', sans-serif;
   font-size: xx-large;
   font-weight: 900;
-  color: var(--black-color);
+  color: #272a31;
+}
+
+.cards img {
+  margin-top: 2em;
+}
+
+.cards h3 {
+  color: #ec5242;
+}
+
+.carddiv {
+  width: 100%;
 }
 
 .below-h1 {
@@ -158,6 +178,7 @@ header {
 .mainprogram h2 {
   text-align: center;
   color: #fff;
+  padding-top: 2em;
 }
 
 .mainprogram hr {
@@ -304,11 +325,12 @@ button:hover {
   }
 
   .top-black-navbar {
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: grey;
+    background-color: rgb(53, 43, 43);
     height: 2.5em;
+    margin-right: 7px;
+}
   }
 
   .top-black-navbar > ul > li > a {
@@ -343,9 +365,8 @@ button:hover {
   .ff-ignite {
     align-items: center;
     width: 20%;
-    margin: auto;
+    height: 16em;
     background-color: rgba(211, 211, 211, 0.25);
-    height: 100%;
     text-align: center;
   }
 
