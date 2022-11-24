@@ -56,14 +56,6 @@ a:hover {
   color: #272a31;
 }
 
-.cards {
-  display: flex;
-  gap: 0.2em;
-  justify-content: space-evenly;
-  width: 87%;
-  margin: auto;
-}
-
 .navbar-desktop {
   display: flex;
   justify-content: space-between;
@@ -113,7 +105,7 @@ a:hover {
 
 .boxed-paragraph {
   display: block;
-  border: solid #fff;
+  border: solid #d3d3d3;
   border-radius: 3px;
   padding: 1em;
   width: 90%;
@@ -133,16 +125,12 @@ a:hover {
   color: #272a31;
 }
 
-.cards img {
-  margin-top: 2em;
-}
-
-.cards h3 {
-  color: #ec5242;
-}
-
 .carddiv {
   width: 100%;
+}
+
+.lecture:hover {
+  border: #d3d3d3;
 }
 
 .below-h1 {
@@ -173,13 +161,13 @@ a:hover {
 
 .mainprogram h2 {
   text-align: center;
-  color: #fff;
+  color: #d3d3d3;
   padding-top: 2em;
 }
 
 .mainprogram hr {
   width: 10%;
-  color: orange;
+  color: #ec5242;
   margin-bottom: 2em;
 }
 
@@ -326,7 +314,6 @@ button:hover {
     background-color: #272a31;
     height: 2.5em;
     margin-right: 7px;
-
   }
 
   .top-black-navbar > ul > li > a {
@@ -342,8 +329,24 @@ button:hover {
     gap: 2em;
   }
 
+  .cards img {
+    margin-top: 2em;
+  }
+
+  .cards h3 {
+    color: #ec5242;
+  }
+
   .home {
     margin-top: 0;
+  }
+
+  .cards {
+    display: flex;
+    gap: 0.2em;
+    justify-content: space-evenly;
+    width: 87%;
+    margin: auto;
   }
 
   .right-footer-textabout {
@@ -351,7 +354,8 @@ button:hover {
     font-weight: 700;
     color: #d3d3d3;
     font-size: x-large;
-    margin: -16% 0% 0% 40%;
+    margin: -9% 0% 0% 40%;
+    width: 70%;
   }
 
   .lecture,
@@ -428,7 +432,7 @@ button:hover {
 
   .boxed-paragraphabout {
     display: block;
-    border: solid #fff;
+    border: solid #d3d3d3;
     border-radius: 3px;
     padding: 1em;
     width: 60%;
@@ -436,7 +440,7 @@ button:hover {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--black-color);
-    background-color: #fff;
+    background-color: #d3d3d3;
     text-align: center;
   }
 
@@ -612,7 +616,6 @@ button:hover {
     display: flex;
   }
 
-  
   .partners-bottom-content {
     display: flex;
     justify-content: space-between;
@@ -620,38 +623,38 @@ button:hover {
   }
 
   .partner-1 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: xx-large;
-    color: #fff;
+    color: #d3d3d3;
   }
 
   .partner-2 {
-    font-family: 'Caveat', cursive;
+    font-family: 'Cocogoose', cursive;
     font-weight: 700;
     font-size: xx-large;
-    color: #fff;
+    color: #d3d3d3;
   }
 
   .partner-3 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: xx-large;
-    color: #fff;
+    color: #d3d3d3;
   }
 
   .partner-4 {
     font-family: 'Cocogoose', sans-serif;
     font-weight: 700;
     font-size: xx-large;
-    color: #fff;
+    color: #d3d3d3;
   }
 
   .partner-5 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: xx-large;
-    color: #fff;
+    color: #d3d3d3;
     padding-right: 2%;
   }
 
@@ -659,7 +662,7 @@ button:hover {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: xx-large;
-    color: #fff;
+    color: #d3d3d3;
   }
 
   .speakertext {
@@ -670,9 +673,10 @@ button:hover {
   .cardsbut {
     border: none;
     background: none;
-    color: #fff;
+    color: #d3d3d3;
     text-decoration: underline;
-    width: 100%;
+    margin: auto;
+    display: block;
     margin-top: 2em;
   }
 

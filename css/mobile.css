@@ -1,6 +1,14 @@
+:root {
+  --black-color: #272a31;
+  --red-color: #ec5242;
+  --gray-color: #d3d3d3;
+  --nav-color: #f7f4f4;
+}
+
 @media screen and (max-width: 768px) {
   .cards {
-    display: inline;
+    display: inline-grid;
+    gap: 0.5em;
   }
 
   .logo {
@@ -22,7 +30,7 @@
     gap: 10%;
     padding-left: 1%;
     margin-top: 17px;
-    height: 7em;
+    text-align: start;
   }
 
   .navbar-right,
@@ -83,7 +91,11 @@
   }
 
   .cards img {
-    margin-top: -15px;
+    justify-content: center;
+    align-items: center;
+    /* stylelint-disable-next-line csstree/validator */
+    height: fit-content;
+    margin: auto;
   }
 
   .nav-ul a {
@@ -120,13 +132,9 @@
     height: 12em;
   }
 
-  .previoussummits {
-    display: inline;
-  }
-
   .farmimgpartnersabout {
     display: block;
-}
+  }
 
   .creative-nexusabout {
     padding-top: 4em;
@@ -143,7 +151,7 @@
 
   .boxed-paragraphabout {
     display: block;
-    border: solid #fff;
+    border: solid #d3d3d3;
     border-radius: 3px;
     padding: 1em;
     width: 90%;
@@ -151,8 +159,12 @@
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--black-color);
-    background-color: #fff;
+    background-color: #d3d3d3;
     text-align: center;
+  }
+
+  .cards h3 {
+    color: #ec5242;
   }
 
   .contpara {
@@ -265,28 +277,6 @@
     display: none;
   }
 
-  .sumit2013 {
-    width: 70%;
-    background-image: url(../img/Next-Generation-Conference-2022-group-photo-c-NFU.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: blur(10px);
-    height: 13em;
-    margin: auto;
-    margin-top: 3em;
-  }
-
-  .sumit2014 {
-    width: 70%;
-    background-image: url(../img/PXL_20211118_092531580-scaled-e1638366981737.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 13em;
-    margin: auto;
-    margin-top: 3em;
-    margin-bottom: 3em;
-  }
-
   .footer-section-container {
     width: 84%;
     width: 80%;
@@ -309,44 +299,46 @@
 
   .partners-bottom-content,
   .partners-bottom-contentabout {
-    justify-content: space-between;
-    flex-flow: wrap;
-    margin-bottom: 19px;
+    display: inline-flex;
+    width: 100%;
+    margin: auto;
+    padding-left: 2%;
   }
 
   .partners-bottom-content > p,
   .partners-bottom-contentabout > p {
-    display: inline-flex;
+    display: inline-block;
     width: 32%;
+    margin: 0;
+    text-align: center;
   }
 
   .partner-1 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: xx-large;
-    color: #fff;
+    color: #d3d3d3;
   }
 
   .partner-2 {
-    font-family: 'Caveat', cursive;
+    font-family: 'Cocogoose', cursive;
     font-weight: 700;
     font-size: xx-large;
-    color: #fff;
+    color: #d3d3d3;
   }
 
   .partner-3 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: xx-large;
-    color: #fff;
+    color: #d3d3d3;
   }
 
   .partner-4 {
     font-family: 'Cocogoose', sans-serif;
     font-weight: 700;
     font-size: xx-large;
-    color: #fff;
-    margin: 0 0 0 20px;
+    color: #d3d3d3;
   }
 
   .more {
@@ -368,10 +360,10 @@
   }
 
   .partner-5 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: xx-large;
-    color: #fff;
+    color: #d3d3d3;
     margin: 0 0 0 109px;
   }
 
@@ -386,7 +378,7 @@
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: xx-large;
-    color: #fff;
+    color: #d3d3d3;
   }
 
   .cardsbut {
@@ -410,7 +402,7 @@
     text-align: left;
     margin: -10px 0 0 78px;
     width: 70%;
-    color: grey;
+    color: #272a31;
     margin-left: 32%;
   }
 
@@ -420,7 +412,7 @@
     text-align: left;
     margin: -10px 0 0 78px;
     width: 70%;
-    color: grey;
+    color: #272a31;
     margin-left: 32%;
   }
 
@@ -438,7 +430,7 @@
     gap: 4em;
     margin-bottom: 24px;
     margin-top: 33px;
-}
+  }
 
   .sumit2013 {
     width: 90%;
@@ -461,7 +453,6 @@
     display: flex;
     justify-content: space-evenly;
   }
-
 
   .right-footer-text {
     font-size: large;
