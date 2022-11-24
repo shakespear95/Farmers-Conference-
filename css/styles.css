@@ -1,0 +1,720 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --black-color: #272a31;
+  --red-color: #ec5242;
+  --gray-color: #d3d3d3;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 43px;
+  height: 8px;
+  margin: 3px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+}
+
+.nav-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 15px;
+}
+
+.logo img {
+  width: 10em;
+}
+
+.topbar img {
+  margin: -7px 0 4px 1px;
+}
+
+.nav-ul li {
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  color: #272a31;
+  margin-left: 32px;
+}
+
+.nav-ul a {
+  color: #272a31;
+}
+
+.navbar-desktop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.realbavlist {
+  display: flex;
+  gap: 3em;
+  margin: 3% 0% 0% -5%;
+}
+
+.firstpart {
+  background-image: url(../img/07.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+.secondNav {
+  display: flex;
+  justify-content: space-between;
+  gap: 12%;
+  width: 100%;
+}
+
+.text-container > p {
+  padding-top: 3em;
+  width: 90%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+  color: var(--red-color);
+  text-align: center;
+}
+
+.creative-nexus {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 90%;
+  margin: auto;
+  font-size: xx-large;
+  font-weight: 900;
+  color: rgba(236, 82, 66, 0.9);
+  font-family: 'Lato', sans-serif;
+}
+
+.boxed-paragraph {
+  display: block;
+  border: solid #d3d3d3;
+  border-radius: 3px;
+  padding: 1em;
+  width: 90%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #272a31;
+}
+
+.header-time {
+  padding-top: 1em;
+  width: 90%;
+  margin: auto;
+  font-family: 'Cocogoose', sans-serif;
+  font-size: xx-large;
+  font-weight: 900;
+  color: #272a31;
+}
+
+.carddiv {
+  width: 100%;
+}
+
+.lecture:hover {
+  border: #d3d3d3;
+}
+
+.below-h1 {
+  width: 90%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #272a31;
+  padding-bottom: 5em;
+}
+
+.tesxth {
+  padding-top: 4em;
+  width: 90%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+  color: #ec5242;
+}
+
+.mainprogram {
+  background-color: #272a31;
+  padding-bottom: 2.5em;
+  width: 100%;
+  background-image: url(../img/00.png);
+}
+
+.mainprogram h2 {
+  text-align: center;
+  color: #d3d3d3;
+  padding-top: 2em;
+}
+
+.mainprogram hr {
+  width: 10%;
+  color: #ec5242;
+  margin-bottom: 2em;
+}
+
+.toprow,
+.bottomrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toprow img,
+.bottomrow img {
+  width: 12rem;
+  align-items: center;
+  display: flex;
+}
+
+.climate,
+.lehmann,
+.weleda,
+.rb,
+.elobau {
+  margin-top: 5%;
+}
+
+.farmimgpartnersabout {
+  background-color: #272a31;
+  padding-bottom: 2px;
+}
+
+.toppart h3 {
+  margin: auto;
+  padding: 0.2em;
+  color: #272a31;
+  font-family: 'Cocogoose', sans-serif;
+  font-weight: 400;
+  font-size: initial;
+  text-align: center;
+  padding-top: 2.5em;
+}
+
+.toppart hr {
+  display: block;
+  height: 0.2em;
+  background-color: #ec5242;
+  margin: auto;
+  width: 5em;
+  margin-bottom: 3em;
+}
+
+.farmimgpartners h3,
+.farmimgpartnersabout h3 {
+  padding-top: 1em;
+  padding-bottom: 0.1em;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: var(--gray-color);
+  font-size: large;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.farmimgpartners hr,
+.farmimgpartnersabout hr {
+  display: block;
+  height: 0.1em;
+  background-color: #ec5242;
+  margin: auto;
+  width: 3em;
+}
+
+.firstrow,
+.secondrow,
+.thirdrow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.speaker {
+  display: inline-flex;
+  width: 49%;
+  margin-bottom: 3.5%;
+}
+
+.speakertext > h4 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: large;
+  font-weight: 400;
+  color: #272a31;
+  margin-bottom: 0;
+}
+
+.speakertext1 {
+  color: var(--red-color);
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-size: smaller;
+  margin-top: 0;
+}
+
+.imagecontainer {
+  border: #d3d3d3 solid;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 1.5em;
+}
+
+.home hr {
+  width: 10%;
+}
+
+.prevsumits {
+  padding-top: 5%;
+  background-color: #f7f2f2;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #ec5242;
+  color: #000;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-ul {
+    margin-right: 8px;
+    flex-direction: row;
+  }
+
+  .hamburger {
+    display: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
+
+  .nav-link a {
+    color: #d3d3d3;
+  }
+
+  .top-black-navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #272a31;
+    height: 2.5em;
+    margin-right: 7px;
+  }
+
+  .top-black-navbar > ul > li > a {
+    text-decoration: none;
+    color: var(--gray-color);
+    font-size: small;
+    font-family: 'Lato', sans-serif;
+    margin: 0 5px 0 0;
+  }
+
+  .topbar {
+    display: flex;
+    gap: 2em;
+  }
+
+  .cards img {
+    margin-top: 2em;
+  }
+
+  .cards h3 {
+    color: #ec5242;
+  }
+
+  .home {
+    margin-top: 0;
+  }
+
+  .cards {
+    display: flex;
+    gap: 0.2em;
+    justify-content: space-evenly;
+    width: 87%;
+    margin: auto;
+  }
+
+  .right-footer-textabout {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #d3d3d3;
+    font-size: x-large;
+    margin: -9% 0% 0% 40%;
+    width: 70%;
+  }
+
+  .lecture,
+  .farm-exhibition,
+  .forum,
+  .workshop,
+  .ff-ignite {
+    align-items: center;
+    width: 20%;
+    height: 19em;
+    background-color: rgba(211, 211, 211, 0.25);
+    text-align: center;
+  }
+
+  .crosshairs img {
+    display: none;
+  }
+
+  .previoussummits {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 4em;
+    margin-bottom: 24px;
+    margin-top: 33px;
+  }
+
+  .speackerimg {
+    position: relative;
+    top: 17px;
+    left: 25px;
+    width: 6em;
+  }
+
+  .speakertext p,
+  .speakertext h4 {
+    width: 81%;
+    margin: auto;
+  }
+
+  .speackerimg img {
+    width: 5em;
+  }
+
+  .speakertext2 {
+    font-size: x-small;
+    color: #272a31;
+    margin-bottom: 0;
+  }
+
+  .features-speakers {
+    width: 92%;
+    margin: auto;
+  }
+
+  .creative-nexusabout {
+    padding-top: 4em;
+    padding-bottom: 1em;
+    width: 50%;
+    margin: auto;
+    font-size: xx-large;
+    font-weight: 900;
+    color: rgba(236, 82, 66, 0.9);
+    font-family: 'lato', sans-serif;
+    text-align: center;
+  }
+
+  .imagecont {
+    position: relative;
+    width: 100px;
+    background-image: url(../img/167.png);
+    background-repeat: no-repeat;
+  }
+
+  .boxed-paragraphabout {
+    display: block;
+    border: solid #d3d3d3;
+    border-radius: 3px;
+    padding: 1em;
+    width: 60%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #272a31;
+    background-color: #d3d3d3;
+    text-align: center;
+  }
+
+  .contpara {
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 40%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #272a31;
+  }
+
+  .nav-link:hover {
+    color: #ec5242;
+    background-color: transparent;
+    border: 3px solid #ec5242;
+    overflow: hidden;
+  }
+
+  .emailpara {
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 1%;
+    text-decoration-line: underline;
+    padding-bottom: 1%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #272a31;
+  }
+
+  .logosection {
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .prevhead {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #272a31;
+  }
+
+  .prevp {
+    margin: auto;
+    margin-top: 3em;
+    width: 50%;
+    text-align: center;
+    color: #272a31;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+
+  .farmimgpartnersabout {
+    display: none;
+  }
+
+  .farmimgpartners {
+    background-color: #272a31;
+  }
+
+  .sumitpara {
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    color: #d3d3d3;
+    text-align: center;
+    font-size: large;
+    padding-top: 1px;
+  }
+
+  .sumithead {
+    text-align: center;
+    padding-top: 1em;
+    font-weight: 700;
+    color: #d3d3d3;
+    font-size: xx-large;
+    margin-top: 21px;
+  }
+
+  .speaker1,
+  .speaker2,
+  .speaker3,
+  .speaker4,
+  .speaker5,
+  .speaker6 {
+    display: flex;
+  }
+
+  .logosection h3 {
+    margin-top: 5%;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #272a31;
+  }
+
+  .logosection hr,
+  .prevsumits hr {
+    width: 10%;
+  }
+
+  .logoimage1 img {
+    width: 36%;
+    margin-bottom: 4em;
+    margin-top: 4em;
+  }
+
+  .sumit2013-img {
+    background-color: rgba(236, 82, 66, 0.75);
+    margin: -21px 0 0 0;
+    height: 100%;
+  }
+
+  .sumit2013 {
+    width: 100%;
+    background-image: url(../img/Next-Generation-Conference-2022-group-photo-c-NFU.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    height: 13em;
+  }
+
+  .sumit2014 {
+    width: 100%;
+    background-image: url(../img/PXL_20211118_092531580-scaled-e1638366981737.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 13em;
+  }
+
+  .left-footer-text {
+    font-size: small;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    margin: -10px 0 0 78px;
+    width: 70%;
+    color: #272a31;
+    margin-left: 32%;
+  }
+
+  .left-footer-textabout {
+    font-size: small;
+    font-family: 'Lato-Bold', sans-serif;
+    text-align: left;
+    margin: -10px 0 0 78px;
+    width: 70%;
+    color: #d3d3d3;
+    margin-left: 32%;
+  }
+
+  .footer-section {
+    height: 11em;
+  }
+
+  .footer-section-container {
+    display: flex;
+    width: 70%;
+    padding-top: 3em;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+  .footer-sectionabout {
+    height: 9em;
+  }
+
+  .farmerssponsors {
+    display: flex;
+  }
+
+  .partners-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px 1px 16px;
+    width: 66%;
+    margin: auto;
+  }
+
+  .partner-1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #d3d3d3;
+  }
+
+  .cards p {
+    width: 86%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    color: #d3d3d3;
+  }
+
+  .partner-2 {
+    font-family: 'Cocogoose', cursive;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #d3d3d3;
+  }
+
+  .partner-3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #d3d3d3;
+  }
+
+  .partner-4 {
+    font-family: 'Cocogoose', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #d3d3d3;
+  }
+
+  .partner-5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #d3d3d3;
+    padding-right: 2%;
+  }
+
+  .partner-6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #d3d3d3;
+  }
+
+  .speakertext {
+    margin-left: -2%;
+    margin-top: 3%;
+  }
+
+  .cardsbut {
+    border: none;
+    background: none;
+    color: #d3d3d3;
+    text-decoration: underline;
+    margin: auto;
+    display: block;
+    margin-top: 2em;
+  }
+
+  .footerpart {
+    background-color: #d3d3d3;
+  }
+
+  .footerpartabout {
+    background-color: #272a31;
+  }
+
+  .right-footer-text {
+    font-size: large;
+    font-family: 'lato', sans-serif;
+    color: #272a31;
+    font-weight: 700;
+  }
+
+  .right-footer-textdesk {
+    font-size: large;
+    font-family: 'Cocogoose', sans-serif;
+    color: #d3d3d3;
+  }
+
+  .more {
+    display: none;
+  }
+}
+
+.cards p {
+  font-family: 'Lato', sans-serif;
+  color: #d3d3d3;
+}

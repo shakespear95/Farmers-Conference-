@@ -1,0 +1,474 @@
+:root {
+  --black-color: #272a31;
+  --red-color: #ec5242;
+  --gray-color: #d3d3d3;
+  --nav-color: #f7f4f4;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    display: inline-grid;
+    gap: 0.5em;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .home {
+    margin-top: -3em;
+  }
+
+  .lecture,
+  .farm-exhibition,
+  .forum,
+  .workshop,
+  .ff-ignite {
+    display: flex;
+    width: 96%;
+    background-color: rgba(211, 211, 211, 0.25);
+    gap: 10%;
+    padding-left: 1%;
+    margin: auto;
+    margin-top: 17px;
+    text-align: start;
+  }
+
+  .navbar-right,
+  .navbar-desktop,
+  .top-black-navbar {
+    display: none;
+  }
+
+  .firstrow,
+  .secondrow,
+  .thirdrow {
+    display: inline;
+    justify-content: space-between;
+    margin-bottom: 2em;
+  }
+
+  .speaker {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .speakertext {
+    margin-left: 17%;
+  }
+
+  .speackerimg {
+    position: relative;
+    top: 4px;
+    left: 25px;
+    width: 6em;
+    margin-top: 3em;
+  }
+
+  .top-black-navbar {
+    display: none;
+  }
+
+  .speackerimg img {
+    width: 7rem;
+    margin-top: -38%;
+  }
+
+  .nav-ul {
+    position: fixed;
+    left: -120%;
+    top: -16px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #d3d3d3;
+    backdrop-filter: blur(25px);
+    mix-blend-mode: multiply;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    padding-top: 20px;
+  }
+
+  .cards img {
+    justify-content: center;
+    align-items: center;
+    /* stylelint-disable-next-line csstree/validator */
+    height: fit-content;
+    margin: auto;
+  }
+
+  .nav-ul a {
+    margin: 1px 10px 0 -220px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #ec5242;
+  }
+
+  .crosshairs {
+    position: fixed;
+    top: 1%;
+    left: 100%;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    margin: 0 19px 0 0;
+  }
+
+  .nav-ul.active {
+    left: 0;
+    padding-top: 117px;
+    height: 30%;
+    z-index: 200;
+  }
+
+  .sumit2014,
+  .sumit2013 {
+    height: 12em;
+  }
+
+  .farmimgpartnersabout {
+    display: block;
+  }
+
+  .creative-nexusabout {
+    padding-top: 4em;
+    padding-bottom: 1em;
+    width: 100%;
+    margin: auto;
+    font-size: xx-large;
+    font-weight: 900;
+    color: rgba(236, 82, 66, 0.9);
+    font-family: 'Cocogoose', sans-serif;
+    text-align: center;
+    margin-top: -40px;
+  }
+
+  .boxed-paragraphabout {
+    display: block;
+    border: solid #d3d3d3;
+    border-radius: 3px;
+    padding: 1em;
+    width: 90%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #272a31;
+    background-color: #d3d3d3;
+    text-align: center;
+  }
+
+  .cards h3 {
+    color: #ec5242;
+  }
+
+  .contpara {
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    width: 60%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #272a31;
+  }
+
+  .emailpara {
+    width: 40%;
+    margin: auto;
+    margin-top: 1%;
+    text-decoration-line: underline;
+    padding-bottom: 1%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #272a31;
+  }
+
+  .speaker1,
+  .speaker2,
+  .speaker3,
+  .speaker4,
+  .speaker5,
+  .speaker6 {
+    display: flex;
+  }
+
+  .speaker4,
+  .speaker5,
+  .speaker6,
+  .speaker {
+    display: none;
+  }
+
+  .logosection {
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .prevhead,
+  .prevp {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  .summithead {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 44px;
+  }
+
+  .sumitpara {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 44px;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    color: #d3d3d3;
+    font-size: larger;
+  }
+
+  .sumithead {
+    padding-top: 1em;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    color: #d3d3d3;
+    font-size: xx-large;
+  }
+
+  .logosection h3 {
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #272a31;
+    width: 90%;
+    margin: auto;
+  }
+
+  .logosection hr,
+  .prevsumits hr {
+    width: 10%;
+  }
+
+  .logoimage1 img {
+    width: 36%;
+    margin-bottom: 4em;
+    margin-top: 4em;
+  }
+
+  .sumit2013-img {
+    background-color: rgba(236, 82, 66, 0.75);
+    margin: -21px 0 0 0;
+    height: 100%;
+  }
+
+  .farmimgpartners {
+    background-color: #242525;
+    display: none;
+  }
+
+  .footer-section-container {
+    width: 84%;
+    width: 80%;
+    display: inline-flex;
+    margin: auto;
+    padding-left: 14%;
+    padding-top: 37px;
+  }
+
+  .imagecont {
+    position: relative;
+    width: 100px;
+    background-image: url(../img/167.png);
+    background-repeat: no-repeat;
+  }
+
+  .footer-detail-container {
+    color: #272a31;
+  }
+
+  .partners-bottom-content,
+  .partners-bottom-contentabout {
+    display: inline-flex;
+    width: 100%;
+    margin: auto;
+    padding-left: 2%;
+  }
+
+  .partners-bottom-content > p,
+  .partners-bottom-contentabout > p {
+    display: inline-block;
+    width: 32%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .partner-1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #d3d3d3;
+  }
+
+  .partner-2 {
+    font-family: 'Cocogoose', cursive;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #d3d3d3;
+  }
+
+  .partner-3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #d3d3d3;
+  }
+
+  .partner-4 {
+    font-family: 'Cocogoose', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #d3d3d3;
+  }
+
+  .more {
+    width: 90%;
+    height: 4em;
+    font-family: 'Lato', sans-serif;
+    padding-top: 2px;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 40%;
+    margin: auto;
+    margin-bottom: 3em;
+  }
+
+  .more:hover {
+    color: #d3d3d3;
+  }
+
+  .partner-5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #d3d3d3;
+    margin: 0 0 0 109px;
+  }
+
+  .nav-link:hover {
+    color: #272a27;
+    background-color: transparent;
+    border: 3px solid #ec5242;
+    overflow: hidden;
+  }
+
+  .partner-6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #d3d3d3;
+  }
+
+  .cardsbut {
+    background-color: var(--red-color);
+    margin: auto;
+    width: 16em;
+    display: block;
+    border-radius: 0.5em;
+    padding: 1.7em;
+    color: var(--gray-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: initial;
+    margin-top: 8%;
+    border: none;
+  }
+
+  .left-footer-textabout {
+    font-size: small;
+    font-family: 'Lato-Bold', sans-serif;
+    text-align: left;
+    margin: -10px 0 0 78px;
+    width: 70%;
+    color: #272a31;
+    margin-left: 32%;
+  }
+
+  .left-footer-text {
+    font-size: small;
+    font-family: 'Lato-Bold', sans-serif;
+    text-align: left;
+    margin: -10px 0 0 78px;
+    width: 70%;
+    color: #272a31;
+    margin-left: 32%;
+  }
+
+  .right-footer-textabout {
+    font-size: large;
+    font-family: 'Cocogoose', sans-serif;
+    color: #272a27;
+    margin-left: -24%;
+  }
+
+  .previoussummits {
+    display: inline;
+    width: 90%;
+    margin: auto;
+    gap: 4em;
+    margin-bottom: 24px;
+    margin-top: 33px;
+  }
+
+  .sumit2013 {
+    width: 90%;
+    background-image: url(../img/Next-Generation-Conference-2022-group-photo-c-NFU.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    height: 13em;
+  }
+
+  .sumit2014 {
+    width: 90%;
+    background-image: url(../img/PXL_20211118_092531580-scaled-e1638366981737.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 13em;
+  }
+
+  .second-layer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .right-footer-text {
+    font-size: large;
+    font-family: 'Cocogoose', sans-serif;
+    color: #272a27;
+    margin-left: -24%;
+  }
+
+  .footer-section {
+    background-color: #d3d3d3;
+    height: 12em;
+    display: none;
+  }
+
+  .footer-sectionabout {
+    height: 12em;
+  }
+}
