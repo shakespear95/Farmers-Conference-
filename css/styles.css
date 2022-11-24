@@ -509,6 +509,7 @@ button:hover {
     color: #d3d3d3;
     text-align: center;
     font-size: large;
+    padding-top: 1px;
   }
 
   .sumithead {
@@ -668,10 +669,6 @@ button:hover {
     text-decoration: underline;
     width: 100%;
     margin-top: 2em;
-  }
-
-  .farmimgpartnersabout {
-    display: none;
   }
 
   .footerpart {
