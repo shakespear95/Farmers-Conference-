@@ -24,10 +24,6 @@ a:hover {
   background-color: #000;
 }
 
-.nav-link .campain {
-  border: #94544d solid;
-}
-
 .nav-ul {
   list-style: none;
   display: flex;
@@ -327,7 +323,7 @@ button:hover {
   .top-black-navbar {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(53, 43, 43);
+    background-color: #272a31;
     height: 2.5em;
     margin-right: 7px;
 
@@ -504,7 +500,7 @@ button:hover {
   }
 
   .farmimgpartners {
-    background-color: #242525;
+    background-color: #272a31;
   }
 
   .sumitpara {
