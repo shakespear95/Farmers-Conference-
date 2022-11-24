@@ -120,6 +120,14 @@
     height: 12em;
   }
 
+  .previoussummits {
+    display: inline;
+  }
+
+  .farmimgpartnersabout {
+    display: block;
+}
+
   .creative-nexusabout {
     padding-top: 4em;
     padding-bottom: 1em;
@@ -422,6 +430,38 @@
     color: #272a27;
     margin-left: -24%;
   }
+
+  .previoussummits {
+    display: inline;
+    width: 90%;
+    margin: auto;
+    gap: 4em;
+    margin-bottom: 24px;
+    margin-top: 33px;
+}
+
+  .sumit2013 {
+    width: 90%;
+    background-image: url(../img/Next-Generation-Conference-2022-group-photo-c-NFU.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    height: 13em;
+  }
+
+  .sumit2014 {
+    width: 90%;
+    background-image: url(../img/PXL_20211118_092531580-scaled-e1638366981737.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 13em;
+  }
+
+  .second-layer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
 
   .right-footer-text {
     font-size: large;
