@@ -7,7 +7,6 @@
   --black-color: #272a31;
   --red-color: #ec5242;
   --gray-color: #d3d3d3;
-  --nav-color: #f7f4f4;
 }
 
 a:hover {
@@ -138,7 +137,7 @@ a:hover {
   margin: auto;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  color: var(--black-color);
+  color: #272a31;
   padding-bottom: 5em;
 }
 
@@ -149,11 +148,11 @@ a:hover {
   font-family: 'Lato', sans-serif;
   font-size: x-large;
   font-weight: 400;
-  color: var(--red-color);
+  color: #ec5242;
 }
 
 .mainprogram {
-  background-color: var(--black-color);
+  background-color: #272a31;
   padding-bottom: 2.5em;
   width: 100%;
   background-image: url(../img/00.png);
@@ -193,14 +192,14 @@ a:hover {
 }
 
 .farmimgpartnersabout {
-  background-color: var(--black-color);
+  background-color: #272a31;
   padding-bottom: 2px;
 }
 
 .toppart h3 {
   margin: auto;
   padding: 0.2em;
-  color: var(--black-color);
+  color: #272a31;
   font-family: 'Cocogoose', sans-serif;
   font-weight: 400;
   font-size: initial;
@@ -257,7 +256,7 @@ a:hover {
   font-family: 'Cocogoose', sans-serif;
   font-size: large;
   font-weight: 400;
-  color: var(--black-color);
+  color: #272a31;
   margin-bottom: 0;
 }
 
@@ -365,7 +364,7 @@ button:hover {
   .ff-ignite {
     align-items: center;
     width: 20%;
-    height: 16em;
+    height: 19em;
     background-color: rgba(211, 211, 211, 0.25);
     text-align: center;
   }
@@ -402,7 +401,7 @@ button:hover {
 
   .speakertext2 {
     font-size: x-small;
-    color: var(--black-color);
+    color: #272a31;
     margin-bottom: 0;
   }
 
@@ -439,7 +438,7 @@ button:hover {
     margin: auto;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: var(--black-color);
+    color: #272a31;
     background-color: #d3d3d3;
     text-align: center;
   }
@@ -450,7 +449,7 @@ button:hover {
     width: 40%;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: var(--black-color);
+    color: #272a31;
   }
 
   .nav-link:hover {
@@ -468,7 +467,7 @@ button:hover {
     padding-bottom: 1%;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    color: var(--black-color);
+    color: #272a31;
   }
 
   .logosection {
@@ -485,7 +484,7 @@ button:hover {
     font-size: 1.5em;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    color: var(--black-color);
+    color: #272a31;
   }
 
   .prevp {
@@ -493,7 +492,7 @@ button:hover {
     margin-top: 3em;
     width: 50%;
     text-align: center;
-    color: var(--black-color);
+    color: #272a31;
     font-size: 1em;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -539,7 +538,7 @@ button:hover {
     font-size: 1.5em;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    color: var(--black-color);
+    color: #272a31;
   }
 
   .logosection hr,
@@ -620,12 +619,21 @@ button:hover {
     display: flex;
     justify-content: space-between;
     padding: 0 5px 1px 16px;
+    width: 66%;
+    margin: auto;
   }
 
   .partner-1 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: xx-large;
+    color: #d3d3d3;
+  }
+
+  .cards p {
+    width: 86%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
     color: #d3d3d3;
   }
 
@@ -704,4 +712,9 @@ button:hover {
   .more {
     display: none;
   }
+}
+
+.cards p {
+  font-family: 'Lato', sans-serif;
+  color: #d3d3d3;
 }

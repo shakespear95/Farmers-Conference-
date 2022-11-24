@@ -25,10 +25,11 @@
   .workshop,
   .ff-ignite {
     display: flex;
-    width: 98%;
+    width: 96%;
     background-color: rgba(211, 211, 211, 0.25);
     gap: 10%;
     padding-left: 1%;
+    margin: auto;
     margin-top: 17px;
     text-align: start;
   }
@@ -158,7 +159,7 @@
     margin: auto;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: var(--black-color);
+    color: #272a31;
     background-color: #d3d3d3;
     text-align: center;
   }
@@ -174,7 +175,7 @@
     width: 60%;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: var(--black-color);
+    color: #272a31;
   }
 
   .emailpara {
@@ -185,7 +186,7 @@
     padding-bottom: 1%;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    color: var(--black-color);
+    color: #272a31;
   }
 
   .speaker1,
@@ -250,7 +251,7 @@
     font-size: 1.5em;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    color: var(--black-color);
+    color: #272a31;
     width: 90%;
     margin: auto;
   }
@@ -294,7 +295,7 @@
   }
 
   .footer-detail-container {
-    color: var(--black-color);
+    color: #272a31;
   }
 
   .partners-bottom-content,
@@ -392,7 +393,7 @@
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: initial;
-    margin-top: 2%;
+    margin-top: 8%;
     border: none;
   }
 
